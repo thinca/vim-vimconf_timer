@@ -66,7 +66,7 @@ vimconf_timer#days()				*vimconf_timer#days()*
 ==============================================================================
 CHANGELOG					*vimconf_timer-changelog*
 
-1.0.0	xxxx-xx-xx
+1.0.0	2019-07-28
 	- Initial version.
 
 
