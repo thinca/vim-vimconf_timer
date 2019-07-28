@@ -1,0 +1,75 @@
+*vimconf_timer.txt*	**Summary**
+
+Version: 1.0.0
+Author : thinca <thinca+vim@gmail.com>
+License: zlib License
+
+==============================================================================
+CONTENTS					*vimconf_timer-contents*
+
+INTRODUCTION			|vimconf_timer-introduction|
+USAGE				|vimconf_timer-usage|
+INTERFACE			|vimconf_timer-interface|
+  COMMANDS			  |vimconf_timer-commands|
+  FUNCTIONS			  |vimconf_timer-functions|
+  KEY MAPPINGS			  |vimconf_timer-key-mappings|
+CUSTOMIZING			|vimconf_timer-customizing|
+CHANGELOG			|vimconf_timer-changelog|
+
+
+
+==============================================================================
+INTRODUCTION					*vimconf_timer-introduction*
+
+*vimconf_timer.vim* is a Vim plugin ...
+
+Requirements:
+- Vim 8.1 or later
+
+Latest version:
+https://github.com/thinca/vim-vimconf_timer
+
+
+
+==============================================================================
+USAGE						*vimconf_timer-usage*
+
+
+
+
+
+==============================================================================
+INTERFACE					*vimconf_timer-interface*
+
+------------------------------------------------------------------------------
+COMMANDS					*vimconf_timer-commands*
+
+:VimConfTimer					*:VimConfTimer*
+	Show days until VimConf.
+
+------------------------------------------------------------------------------
+FUNCTIONS					*vimconf_timer-functions*
+
+vimconf_timer#days()				*vimconf_timer#days()*
+	Return days until VimConf.
+
+
+------------------------------------------------------------------------------
+KEY MAPPINGS					*vimconf_timer-key-mappings*
+
+
+
+==============================================================================
+CUSTOMIZING					*vimconf_timer-customizing*
+
+
+
+==============================================================================
+CHANGELOG					*vimconf_timer-changelog*
+
+1.0.0	xxxx-xx-xx
+	- Initial version.
+
+
+==============================================================================
+vim:tw=78:ts=8:ft=help:norl

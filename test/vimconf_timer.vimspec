@@ -1,0 +1,7 @@
+Describe vimconf_timer#period()
+  It returns days
+    let now = 1564142174
+    let target = 1564401374
+    Assert Equal(vimconf_timer#period(now, target), 3)
+  End
+End
