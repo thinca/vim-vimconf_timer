@@ -1,4 +1,4 @@
-*vimconf_timer.txt*	**Summary**
+*vimconf_timer.txt*	Show days until VimConf.
 
 Version: 1.0.0
 Author : thinca <thinca+vim@gmail.com>
@@ -12,8 +12,6 @@ USAGE				|vimconf_timer-usage|
 INTERFACE			|vimconf_timer-interface|
   COMMANDS			  |vimconf_timer-commands|
   FUNCTIONS			  |vimconf_timer-functions|
-  KEY MAPPINGS			  |vimconf_timer-key-mappings|
-CUSTOMIZING			|vimconf_timer-customizing|
 CHANGELOG			|vimconf_timer-changelog|
 
 
@@ -21,7 +19,11 @@ CHANGELOG			|vimconf_timer-changelog|
 ==============================================================================
 INTRODUCTION					*vimconf_timer-introduction*
 
-*vimconf_timer.vim* is a Vim plugin ...
+*vimconf_timer.vim* is a Vim plugin to show days until VimConf 2019.
+VimConf is an international conference about Vim, the editor.
+And, VimConf 2019 is hold on November 03, 2019.
+
+https://vimconf.org/2019/
 
 Requirements:
 - Vim 8.1 or later
@@ -34,8 +36,14 @@ https://github.com/thinca/vim-vimconf_timer
 ==============================================================================
 USAGE						*vimconf_timer-usage*
 
-
-
+Use a command |:VimConfTimer| to show days in message.
+>
+	:VimConfTimer
+<
+You can show days in status line with |vimconf_timer#days()| function.
+>
+	set statusline+=VimConf\ まであと\ %{vimconf_timer#days()}\ 日
+<
 
 
 ==============================================================================
@@ -52,15 +60,6 @@ FUNCTIONS					*vimconf_timer-functions*
 
 vimconf_timer#days()				*vimconf_timer#days()*
 	Return days until VimConf.
-
-
-------------------------------------------------------------------------------
-KEY MAPPINGS					*vimconf_timer-key-mappings*
-
-
-
-==============================================================================
-CUSTOMIZING					*vimconf_timer-customizing*
 
 
 
